@@ -1,0 +1,38 @@
+<ul class="list-group mt-3">
+<li
+  class="list-group-item mt-3"
+  *ngFor="let task of tasks; let i = index"
+  [style.color]="listItemColor"
+  [style.backgroundColor]="labelColor"
+>
+  <div class="task-details">
+    <strong>{{ task.task }}</strong>
+    <br />
+    <small class="text-muted">{{ task.date }}</small>
+  </div>
+
+  <div class="d-flex">
+    <button
+      class="btn btn-outline-success btn-sm "
+      [class.active]="task.isHappy === true"
+      (click)="setMood(i, true)"
+    >
+      😊
+    </button>
+    <button
+      class="btn btn-outline-danger btn-sm"
+      [class.active]="task.isHappy === false"
+      (click)="setMood(i, false)"
+    >
+      😞
+    </button>
+  </div>
+
+  <button
+    type="button"
+    class="btn-close"
+    (click)="deleteTask(i)"
+    aria-label="Usuń zadanie"
+  ></button>
+</li>
+</ul>

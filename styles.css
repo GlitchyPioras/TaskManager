@@ -1,0 +1,27 @@
+.list-color-bg{
+    background-color: #0B192C;
+}
+
+body {
+  
+  color: var(--text-color);
+  overflow-y:scroll;
+  
+}
+.d-flex > * {
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0; 
+}
+.form-control {
+  max-width: 300px; 
+}
+
+label {
+  white-space: nowrap; 
+}
+
+.d-flex {
+  gap: 10px;
+}
+

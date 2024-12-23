@@ -1,0 +1,33 @@
+.container {
+    max-width: 600px;
+    border-radius: 5%;
+    
+  }
+  
+  .imageh1{
+    width: 10%;
+
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+
+.container {
+  padding: 1rem;
+}
+*{
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+
+
+  .container {
+    width: 100%;
+  }
+
+
+}

@@ -1,0 +1,125 @@
+.Paleta1{
+    background-image: url('/assets/Paleta1.png');
+    background-size: cover;
+    background-position: center;
+    width: 10vw;  
+    height: 10vw; 
+    border: none;
+    cursor: pointer;
+}
+  
+  .Paleta1:hover {
+    opacity: 0.8;
+ }
+
+.Paleta2{
+    background-image: url('/assets/Paleta2.png');
+    background-size: cover;
+    background-position: center;
+    width: 10vw;  
+    height: 10vw; 
+    border: none;
+    cursor: pointer;
+  }
+  
+.Paleta2:hover {
+    opacity: 0.8;
+}
+
+.Paleta3{
+  background-image: url('/assets/Paleta3.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta3:hover {
+  opacity: 0.8;
+}
+
+.Paleta4{
+  background-image: url('/assets/Paleta4.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta4:hover {
+  opacity: 0.8;
+}
+
+.Paleta5{
+  background-image: url('/assets/Paleta5.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta5:hover {
+  opacity: 0.8;
+}
+
+.Paleta6{
+  background-image: url('/assets/Paleta6.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta6:hover {
+  opacity: 0.8;
+}
+
+.Paleta7{
+  background-image: url('/assets/Paleta7.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta7:hover {
+  opacity: 0.8;
+}
+
+.Paleta8{
+  background-image: url('/assets/Paleta8.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta8:hover {
+  opacity: 0.8;
+}
+
+.Paleta9{
+  background-image: url('/assets/Paleta9.png');
+  background-size: cover;
+  background-position: center;
+  width: 10vw;  
+  height: 10vw; 
+  border: none;
+  cursor: pointer;
+}
+
+.Paleta9:hover {
+  opacity: 0.8;
+}
